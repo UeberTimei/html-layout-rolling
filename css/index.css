@@ -434,6 +434,102 @@ html {
   box-sizing: inherit;
 }
 
+.header .header-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 36px 48px;
+}
+.header .header-wrapper .header-name {
+  color: #000000;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 98px;
+}
+.header .header-wrapper .header-nav {
+  color: #000000;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  gap: 32px;
+}
+.header .header-wrapper .header-search-bar {
+  position: relative;
+}
+.header .header-wrapper .header-search-bar .header-search-bar-search {
+  border: 1px solid #e5e5ea;
+  padding: 16px 24px 16px 60px;
+  border-radius: 60px;
+  width: 387px;
+  margin-right: 121px;
+}
+.header .header-wrapper .header-search-bar .header-search-bar-search::placeholder {
+  color: #8e8e93;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .header-wrapper .header-search-bar .header-search-bar-magnifier {
+  position: absolute;
+  left: 24px;
+  top: 15px;
+}
+.header .header-wrapper .header-lightning {
+  border: 0.5px #e5e5ea solid;
+  border-radius: 10000px;
+  padding: 10px;
+  filter: drop-shadow(0px 10px 20px rgba(5, 16, 55, 0.1));
+  margin-left: 32px;
+  margin-right: 36px;
+}
+.header .header-wrapper .header-button {
+  padding: 16px;
+  border: 0;
+  background-color: rgba(0, 122, 255, 0.1215686275);
+  border-radius: 33px;
+}
+.header .header-wrapper .header-button .header-button-text {
+  color: #007aff;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main-part .main-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+  gap: 23px;
+}
+.main-part .main-wrapper .main-aside-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 432px;
+  max-height: 490px;
+}
+.main-part .main-wrapper .main-aside-card .card-top-info {
+  width: 360px;
+}
+.main-part .main-wrapper .main-aside-card .card-top-info .card-title {
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;

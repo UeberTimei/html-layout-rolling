@@ -11,14 +11,17 @@
       <div class="wrapper">
         <div class="header-wrapper">
           <div class="header-logo">
-            <span class="header-name"> Rolling </span>
+            <span class="header-name">Rolling</span>
           </div>
           <div class="header-search-bar">
             <input
+              class="header-search-bar-search"
               type="search"
               name="header-search-rolling"
               id="search-rolling"
+              placeholder="Search Rolling"
             />
+            <img src="./img/svg/magnifier.svg" alt="magnifier" class="header-search-bar-magnifier">
           </div>
           <nav class="header-nav">
             <span class="header-nav-buttons">Explore</span>
@@ -26,7 +29,9 @@
             <span class="header-nav-buttons">Feed</span>
             <span class="header-nav-buttons">Bids</span>
           </nav>
-          <div class="header-lightning"></div>
+          <div class="header-lightning">
+            <img src="./img/svg/lightning.svg" alt="lightning" class="header-lightning-thumb">
+          </div>
           <button class="header-button">
             <span class="header-button-text">Connect Wallet</span>
           </button>
@@ -844,6 +849,10 @@
               <span class="footer-updates-title">
                 Get the latest Rolling updates
               </span>
+              <div class="footer-updates-subscribe">
+                <input type="email" name="footer-email" id="footer-email">
+                <button class="footer-updates-subscribe-button">Subscribe</button>
+              </div>
             </div>
             <div class="footer-rolling">
               <span class="footer-rolling-title">Rolling</span>

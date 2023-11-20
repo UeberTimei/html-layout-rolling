@@ -1,0 +1,25 @@
+.main-part .main-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+  gap: 23px;
+}
+.main-part .main-wrapper .main-aside-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 432px;
+  max-height: 490px;
+}
+.main-part .main-wrapper .main-aside-card .card-top-info {
+  width: 360px;
+}
+.main-part .main-wrapper .main-aside-card .card-top-info .card-title {
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}

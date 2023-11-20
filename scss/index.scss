@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap");
 
 @import "base";
-@import "sections/featured.scss";
+@import "colors.scss";
 @import "sections/header.scss";
-@import "sections/live-auctions.scss";
 @import "sections/main.scss";
+@import "sections/live-auctions.scss";
+@import "sections/featured.scss";
 @import "sections/top-creators.scss";
+@import "sections/footer.scss";
 
 .wrapper {
   max-width: 1440px;
