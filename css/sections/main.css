@@ -11,15 +11,150 @@
   align-items: center;
   width: 432px;
   max-height: 490px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 34px 0px rgba(5, 16, 55, 0.15);
 }
 .main-part .main-wrapper .main-aside-card .card-top-info {
   width: 360px;
 }
 .main-part .main-wrapper .main-aside-card .card-top-info .card-title {
+  display: flex;
+  margin-bottom: 12px;
   color: #000;
   font-family: Fira Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
+}
+.main-part .main-wrapper .main-aside-card .card-top-info .card-author {
+  display: flex;
+  margin-bottom: 46px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.main-part .main-wrapper .main-aside-card .card-top-info .card-author .card-author-name {
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+.main-part .main-wrapper .main-aside-card .card-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 72px;
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-bid {
+  display: flex;
+  flex-direction: column;
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-bid .info-bid-title {
+  display: flex;
+  margin-bottom: 12px;
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-bid .info-bid-price-eth {
+  display: flex;
+  margin-bottom: 8px;
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-bid .info-bid-price-usd {
+  color: var(--system-gray-01-light, #8e8e93);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-stick {
+  width: 1px;
+  height: 81px;
+  background: #c7c7cc;
+  margin: 0 24px;
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-end {
+  display: flex;
+  flex-direction: column;
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-end .info-end-title {
+  display: flex;
+  margin-bottom: 12px;
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-end .info-end-time .info-end-time-int {
+  display: flex;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 52px;
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+}
+.main-part .main-wrapper .main-aside-card .card-info .card-info-end .info-end-time .info-end-time-titles {
+  display: flex;
+  gap: 20px;
+  color: var(--system-gray-01-light, #8e8e93);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+}
+.main-part .main-wrapper .main-aside-card .card-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.main-part .main-wrapper .main-aside-card .card-buttons .place-bid {
+  margin-bottom: 20px;
+  border: none;
+  display: flex;
+  width: 360px;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 45px;
+  background: #007aff;
+}
+.main-part .main-wrapper .main-aside-card .card-buttons .place-bid .place-bid-text {
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main-part .main-wrapper .main-aside-card .card-buttons .view-artwork {
+  background: none;
+  border: none;
+}
+.main-part .main-wrapper .main-aside-card .card-buttons .view-artwork .view-artwork-text {
+  color: #007aff;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

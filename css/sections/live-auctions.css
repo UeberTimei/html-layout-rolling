@@ -1,0 +1,115 @@
+.live-auctions .live-auctions-wrapper {
+  margin-bottom: 90px;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-top {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-top .live-auctions-title {
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+}
+.live-auctions .live-auctions-wrapper .live-auctions-top .live-auctions-view-all {
+  color: #8e8e93;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card {
+  max-width: 312px;
+  border-radius: 16px;
+  border: 1.5px solid #e6e6e6;
+  background: #fff;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-img {
+  position: relative;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-img .live-auctions-card-time-left {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  display: inline-flex;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 10px 30px 0px rgba(5, 16, 55, 0.15);
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-img .live-auctions-card-time-left .time-left-text {
+  color: #2c2c2e;
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info {
+  display: flex;
+  flex-direction: column;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-info-name {
+  margin-bottom: 48px;
+  font-family: Fira Sans;
+  margin-top: 16px;
+  margin-left: 20px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info {
+  display: flex;
+  flex-direction: row;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author {
+  display: flex;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author .live-auctions-card-author {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author .live-auctions-card-author-name {
+  color: #8e8e93;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-bid {
+  display: flex;
+  flex-direction: column;
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-bid .current-bid {
+  color: #8e8e93;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.live-auctions .live-auctions-wrapper .live-auctions-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-bid .live-auctions-card-bid-price-in-eth {
+  color: #000;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
