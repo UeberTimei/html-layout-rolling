@@ -1,8 +1,16 @@
 .featured {
   .featured-wrapper {
+    max-width: 1344px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .featured-title {
       display: flex;
+      text-align: center;
       justify-content: space-between;
+      margin-bottom: 36px;
       .featured-title-text {
         color: #000;
         font-family: Fira Sans;
@@ -18,6 +26,121 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 140% */
+      }
+    }
+
+    .featured-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 312px);
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+
+      .live-auctions-card {
+        max-width: 312px;
+        border-radius: 16px;
+        border: 1.5px solid #e6e6e6;
+        background: #fff;
+        .live-auctions-card-img {
+          position: relative;
+          .live-auctions-card-time-left {
+            position: absolute;
+            right: 16px;
+            top: 16px;
+            display: inline-flex;
+            padding: 10px 12px;
+            align-items: center;
+            gap: 10px;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 0px 10px 30px 0px rgba(5, 16, 55, 0.15);
+            .time-left-text {
+              color: #2c2c2e;
+              font-family: Fira Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+          }
+        }
+        .live-auctions-card-info {
+          display: flex;
+          flex-direction: column;
+          .live-auctions-card-info-name {
+            margin-bottom: 48px;
+            font-family: Fira Sans;
+            margin-top: 16px;
+            margin-left: 20px;
+
+            color: #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 140% */
+          }
+          .live-auctions-card-bottom-info {
+            display: flex;
+            flex-direction: row;
+            .live-auctions-card-author {
+              display: flex;
+              // write styles for img
+              .live-auctions-card-author {
+                width: 24px;
+                height: 24px;
+                border-radius: 24px;
+              }
+              .live-auctions-card-author-name {
+                color: #8e8e93;
+                font-family: Fira Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px; /* 100% */
+              }
+            }
+            .live-auctions-card-bid {
+              display: flex;
+              flex-direction: column;
+              .current-bid {
+                color: #8e8e93;
+                font-family: Fira Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+              }
+              .live-auctions-card-bid-price-in-eth {
+                color: #000;
+                font-family: Fira Sans;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 120% */
+              }
+            }
+          }
+        }
+      }
+    }
+    .featured-button-load-more {
+      max-width: 208px;
+      max-height: 56px;
+      display: inline-flex;
+      padding: 16px 64px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 56px;
+      border-radius: 48px;
+      border: 1px solid #aeaeb2;
+      .featured-button-load-more-text {
+        color: #000;
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
       }
     }
   }

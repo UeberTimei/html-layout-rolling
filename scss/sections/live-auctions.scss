@@ -1,5 +1,6 @@
 .live-auctions {
   .live-auctions-wrapper {
+    max-width: 1344px;
     margin-bottom: 90px;
 
     .live-auctions-top {
@@ -30,7 +31,7 @@
       grid-template-columns: repeat(4, 1fr);
       justify-content: center;
       align-items: center;
-      // gap: 32px;
+      gap: 36px;
 
       .live-auctions-card {
         max-width: 312px;
