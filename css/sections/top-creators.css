@@ -1,9 +1,9 @@
 .top-creators .top-creators-wrapper {
   max-width: 1344px;
+  margin-left: 46px;
   margin-bottom: 90px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .top-creators .top-creators-wrapper .top-creators-title {
   display: flex;
@@ -119,6 +119,7 @@
   line-height: 24px; /* 120% */
 }
 .top-creators .top-creators-wrapper .top-creators-button-load-more {
+  align-self: center;
   max-width: 257px;
   max-height: 56px;
   display: inline-flex;

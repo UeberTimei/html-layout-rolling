@@ -3,7 +3,10 @@
   align-items: center;
   margin: 36px 48px;
 }
-.header .header-wrapper .header-name {
+.header .header-wrapper .header-logo {
+  margin-right: 54px;
+}
+.header .header-wrapper .header-logo .header-name {
   color: #000000;
   font-family: Fira Sans;
   font-size: 24px;

@@ -1,9 +1,9 @@
 .featured .featured-wrapper {
   max-width: 1344px;
   margin-bottom: 90px;
+  margin-left: 46px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .featured .featured-wrapper .featured-title {
   display: flex;
@@ -79,16 +79,23 @@
   line-height: 28px; /* 140% */
 }
 .featured .featured-wrapper .featured-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info {
+  margin: 20px;
   display: flex;
+  max-width: 312px;
+  align-items: end;
+  justify-content: space-between;
   flex-direction: row;
+  gap: 42px;
 }
 .featured .featured-wrapper .featured-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author {
   display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.featured .featured-wrapper .featured-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author .live-auctions-card-author {
+.featured .featured-wrapper .featured-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author .live-auctions-card-author-img {
+  display: flex;
   width: 24px;
   height: 24px;
-  border-radius: 24px;
 }
 .featured .featured-wrapper .featured-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-author .live-auctions-card-author-name {
   color: #8e8e93;
@@ -97,6 +104,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 100% */
+  min-width: 110px;
 }
 .featured .featured-wrapper .featured-cards .live-auctions-card .live-auctions-card-info .live-auctions-card-bottom-info .live-auctions-card-bid {
   display: flex;
@@ -119,6 +127,7 @@
   line-height: 24px; /* 120% */
 }
 .featured .featured-wrapper .featured-button-load-more {
+  align-self: center;
   max-width: 208px;
   max-height: 56px;
   display: inline-flex;

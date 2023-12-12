@@ -1,5 +1,6 @@
 .main-part .main-wrapper {
   max-width: 1344px;
+  margin-left: 46px;
   display: flex;
   flex-direction: row;
   margin-bottom: 90px;

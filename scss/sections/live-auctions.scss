@@ -2,7 +2,7 @@
   .live-auctions-wrapper {
     max-width: 1344px;
     margin-bottom: 90px;
-
+    margin-left: 46px;
     .live-auctions-top {
       display: flex;
       text-align: center;
@@ -35,6 +35,7 @@
 
       .live-auctions-card {
         max-width: 312px;
+        // max-height: 446px;
         border-radius: 16px;
         border: 1.5px solid #e6e6e6;
         background: #fff;
@@ -76,16 +77,27 @@
             font-weight: 500;
             line-height: 28px; /* 140% */
           }
+          .second-item-auctions {
+            margin-bottom: 20px;
+          }
           .live-auctions-card-bottom-info {
+            margin: 20px;
             display: flex;
+            max-width: 312px;
+            align-items: end;
+            justify-content: space-between;
             flex-direction: row;
+            gap: 42px;
+
+            // margin: 20px;
             .live-auctions-card-author {
               display: flex;
-              // write styles for img
-              .live-auctions-card-author {
+              align-items: center;
+              gap: 8px;
+              .live-auctions-card-author-img {
+                display: flex;
                 width: 24px;
                 height: 24px;
-                border-radius: 24px;
               }
               .live-auctions-card-author-name {
                 color: #8e8e93;
@@ -94,6 +106,7 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 16px; /* 100% */
+                min-width: 110px;
               }
             }
             .live-auctions-card-bid {

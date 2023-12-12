@@ -15,13 +15,15 @@ $button-text: #007aff;
 .header {
   .header-wrapper {
     display: flex;
-    // justify-content: space-around;
     align-items: center;
     margin: 36px 48px;
 
-    .header-name {
-      @include text($secondary, 24px, 600, normal);
-      margin-right: 98px;
+    .header-logo {
+      margin-right: 54px;
+      .header-name {
+        @include text($secondary, 24px, 600, normal);
+        margin-right: 98px;
+      }
     }
 
     .header-nav {
