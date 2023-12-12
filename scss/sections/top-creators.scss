@@ -40,83 +40,65 @@
         border-radius: 16px;
         border: 1.5px solid #e6e6e6;
         background: #fff;
-        .top-creators-card-img {
-          position: relative;
-          .top-creators-card-time-left {
-            position: absolute;
-            right: 16px;
-            top: 16px;
-            display: inline-flex;
-            padding: 10px 12px;
-            align-items: center;
-            gap: 10px;
-            border-radius: 30px;
-            background: rgba(255, 255, 255, 0.6);
-            box-shadow: 0px 10px 30px 0px rgba(5, 16, 55, 0.15);
-            .time-left-text {
-              color: #2c2c2e;
-              font-family: Fira Sans;
-              font-size: 14px;
-              font-style: normal;
-              font-weight: 500;
-              line-height: normal;
-            }
-          }
-        }
         .top-creators-card-info {
           display: flex;
-          flex-direction: column;
-          .top-creators-card-info-name {
-            margin-bottom: 48px;
-            font-family: Fira Sans;
-            margin-top: 16px;
-            margin-left: 20px;
-
-            color: #000;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 28px; /* 140% */
+          padding: 20px;
+          gap: 16px;
+          .top-creators-card-info-img {
+            width: 56px;
+            aspect-ratio: 1/1;
           }
-          .top-creators-card-bottom-info {
+          .top-creators-card-info-name {
             display: flex;
-            flex-direction: row;
-            .top-creators-card-author {
-              display: flex;
-              // write styles for img
-              .top-creators-card-author {
-                width: 24px;
-                height: 24px;
-                border-radius: 24px;
-              }
-              .top-creators-card-author-name {
-                color: #8e8e93;
-                font-family: Fira Sans;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 16px; /* 100% */
-              }
+            align-items: center;
+            gap: 6px;
+            color: #000;
+            font-family: Fira Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 88.889% */
+            margin-bottom: 16px;
+          }
+          .top-creators-card-info-of-author {
+            margin-bottom: 72px;
+            .top-creators-card-info-of-author-text {
+              color: #3c3c4399;
+              font-family: Fira Sans;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px; /* 150% */
             }
-            .top-creators-card-bid {
+          }
+
+          .top-creators-card-follow {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .top-creators-card-amount-followers {
+              color: #000;
+              font-family: Fira Sans;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px; /* 150% */
+            }
+            .top-creators-card-button {
               display: flex;
-              flex-direction: column;
-              .current-bid {
-                color: #8e8e93;
-                font-family: Fira Sans;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 24px; /* 150% */
-              }
-              .top-creators-card-bid-price-in-eth {
-                color: #000;
-                font-family: Fira Sans;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 24px; /* 120% */
-              }
+              padding: 8px 16px;
+              align-items: center;
+              gap: 10px;
+              border-radius: 38px;
+              background: #007aff;
+              border: 0;
+
+              color: #fff;
+              font-family: Fira Sans;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px; /* 150% */
             }
           }
         }
@@ -135,6 +117,7 @@
       margin-top: 56px;
       border-radius: 48px;
       border: 1px solid #aeaeb2;
+      background: white;
       .top-creators-button-load-more-text {
         color: #000;
         font-family: Fira Sans;
