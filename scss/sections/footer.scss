@@ -1,6 +1,41 @@
 .footer {
-  // background-color: black;
+  background-color: black;
+  color: white;
   .footer-wrapper {
-    display: flex;
+    padding-left: 48px;
+    padding-top: 40px;
+    .footer-before-line {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 72px;
+      .footer-updates {
+        margin-right: 146px;
+      }
+      .footer-rolling {
+        display: flex;
+        flex-direction: column;
+        .footer-rolling-title {
+          margin-bottom: 28px;
+
+          color: #fff;
+          font-family: Fira Sans;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 120% */
+        }
+        .footer-rolling-menu {
+          display: flex;
+          flex-direction: column;
+
+          color: #ebebf599;
+          font-family: Fira Sans;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 120% */
+        }
+      }
+    }
   }
 }
