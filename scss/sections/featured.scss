@@ -17,6 +17,8 @@
         font-style: normal;
         font-weight: 500;
         line-height: 36px; /* 128.571% */
+
+        cursor: default;
       }
       .featured-title-button-view-all {
         color: #8e8e93;
@@ -25,6 +27,11 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 140% */
+
+        cursor: pointer;
+        &:hover {
+          color: #505050;
+        }
       }
     }
 
@@ -143,6 +150,10 @@
       margin-top: 56px;
       border-radius: 48px;
       border: 1px solid #aeaeb2;
+      background-color: white;
+      &:hover {
+        background: rgb(240, 240, 240);
+      }
       .featured-button-load-more-text {
         color: #000;
         font-family: Fira Sans;

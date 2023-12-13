@@ -143,6 +143,10 @@
           gap: 10px;
           border-radius: 45px;
           background: #007aff;
+          &:hover {
+            background: #1d8cfa;
+          }
+
           .place-bid-text {
             color: #fff;
             font-family: Fira Sans;
@@ -162,6 +166,10 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+
+            &:hover {
+              color: #2f97ff;
+            }
           }
         }
       }

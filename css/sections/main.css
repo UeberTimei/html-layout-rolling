@@ -140,6 +140,9 @@
   border-radius: 45px;
   background: #007aff;
 }
+.main-part .main-wrapper .main-aside-card .card-buttons .place-bid:hover {
+  background: #1d8cfa;
+}
 .main-part .main-wrapper .main-aside-card .card-buttons .place-bid .place-bid-text {
   color: #fff;
   font-family: Fira Sans;
@@ -159,4 +162,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.main-part .main-wrapper .main-aside-card .card-buttons .view-artwork .view-artwork-text:hover {
+  color: #2f97ff;
 }

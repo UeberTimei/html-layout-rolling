@@ -54,6 +54,9 @@
             border: 0;
             border-radius: 72px;
             background: #0a84ff;
+            &:hover {
+              background: #1d8cfa;
+            }
 
             color: #fff;
             font-family: Fira Sans;
@@ -70,6 +73,7 @@
         margin-right: 175px;
         .footer-rolling-title {
           margin-bottom: 28px;
+          cursor: default;
 
           color: #fff;
           font-family: Fira Sans;
@@ -103,6 +107,7 @@
         flex-direction: column;
         .footer-community-title {
           margin-bottom: 28px;
+          cursor: default;
 
           color: #fff;
           font-family: Fira Sans;
@@ -136,6 +141,7 @@
       background: #545458a6;
       width: 1344px;
       height: 1px;
+      cursor: default;
     }
     .footer-after-line {
       display: flex;
@@ -155,6 +161,8 @@
           font-style: normal;
           font-weight: 600;
           line-height: normal;
+
+          cursor: default;
         }
         .footer-not-logo {
           display: flex;
@@ -166,12 +174,27 @@
           font-weight: 400;
           line-height: 24px; /* 150% */
           text-align: center;
+          .footer-not-logo-terms {
+            cursor: pointer;
+            &:hover {
+              color: #ebebf5c5;
+            }
+          }
+          .footer-not-privacy {
+            cursor: pointer;
+            &:hover {
+              color: #ebebf5c5;
+            }
+          }
         }
       }
       .footer-social-media {
         display: flex;
         flex-direction: row;
         gap: 24px;
+        .footer-social-media-el {
+          cursor: pointer;
+        }
       }
     }
   }

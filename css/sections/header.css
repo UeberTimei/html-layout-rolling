@@ -14,6 +14,7 @@
   font-weight: 600;
   line-height: normal;
   margin-right: 98px;
+  cursor: default;
 }
 .header .header-wrapper .header-nav {
   color: #000000;
@@ -24,6 +25,12 @@
   line-height: normal;
   display: flex;
   gap: 32px;
+}
+.header .header-wrapper .header-nav .header-nav-buttons {
+  cursor: pointer;
+}
+.header .header-wrapper .header-nav .header-nav-buttons:hover {
+  color: rgb(75, 75, 75);
 }
 .header .header-wrapper .header-search-bar {
   position: relative;
@@ -55,12 +62,19 @@
   filter: drop-shadow(0px 10px 20px rgba(5, 16, 55, 0.1));
   margin-left: 32px;
   margin-right: 36px;
+  cursor: pointer;
+}
+.header .header-wrapper .header-lightning:hover {
+  background-color: #ebebeb;
 }
 .header .header-wrapper .header-button {
   padding: 16px;
   border: 0;
   background-color: rgba(0, 122, 255, 0.1215686275);
   border-radius: 33px;
+}
+.header .header-wrapper .header-button:hover {
+  background-color: rgba(62, 156, 255, 0.1215686275);
 }
 .header .header-wrapper .header-button .header-button-text {
   color: #007aff;

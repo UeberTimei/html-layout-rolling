@@ -23,6 +23,7 @@ $button-text: #007aff;
       .header-name {
         @include text($secondary, 24px, 600, normal);
         margin-right: 98px;
+        cursor: default;
       }
     }
 
@@ -30,6 +31,12 @@ $button-text: #007aff;
       @include text($secondary, 16px, 500, normal);
       display: flex;
       gap: 32px;
+      .header-nav-buttons {
+        cursor: pointer;
+        &:hover {
+          color: rgb(75, 75, 75);
+        }
+      }
     }
 
     .header-search-bar {
@@ -58,6 +65,10 @@ $button-text: #007aff;
       filter: drop-shadow(0px 10px 20px rgba(5, 16, 55, 0.1));
       margin-left: 32px;
       margin-right: 36px;
+      cursor: pointer;
+      &:hover {
+        background-color: #ebebeb;
+      }
     }
 
     .header-button {
@@ -65,6 +76,9 @@ $button-text: #007aff;
       border: 0;
       background-color: $button;
       border-radius: 33px;
+      &:hover {
+        background-color: #3e9cff1f;
+      }
       .header-button-text {
         @include text($button-text, 16px, 500, normal);
       }
